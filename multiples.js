@@ -4,6 +4,7 @@
  * @return {Number}
  */
 exports.sumOfAMultiple = function( n ) {
+
   var sum = 0;
 
   for (i = 1; i < n; i++) {
@@ -19,4 +20,3 @@ exports.sumOfAMultiple = function( n ) {
   return sum;
 
 };
-
